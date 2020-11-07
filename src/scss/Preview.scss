@@ -1,0 +1,50 @@
+#Preview {
+    margin: auto;
+    padding: 20px;
+    width: 650px;
+    height: auto;
+    background-color: #c0d8d8;
+    display: flex;
+    flex-direction: column;
+    #header {
+        width: 650px;
+        height: 30px;
+        border: 2px solid black;
+        border-bottom: none;
+        border-radius: 2px;
+        box-shadow: 1px 1px 10px 2px #3a5f5f;
+        background-color: #79a6a6;
+        #heading {
+            margin: 5px 10px;
+            font-size: 16px;
+            font-weight: bold;
+            float: left;
+        }
+        #previewmax {
+            float: right;
+            margin: 7px 10px;
+            font-size: 12px;
+            font-weight: bold;
+            background-color: #3a5f5f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:active, &:visited {
+                background-color: green;
+            }
+        }
+    }
+    #preview {
+        width: 650px;
+        height: auto;
+        border: 2px solid black;
+        border-radius: 2px;
+        box-shadow: 1px 1px 10px 2px #3a5f5f;
+    }
+}
+

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../scss/Input.scss';
 
 class Input extends React.Component {
     constructor(props) {
@@ -6,10 +7,13 @@ class Input extends React.Component {
     }
 
     render() {
-    return (<div>
-        <h3>Enter the input:</h3>
-        <textarea id="input" rows="20" cols="50" onChange={this.props.setInput}></textarea>
-    </div>);
+    return this.props.visible === "editor" || this.props.visible === 'both' ? (<div id="Input">
+        <div id="header">
+            <p id="heading">Editor</p>
+            <button id="editormax" onClick={this.props.maximize}>Enlarge</button>
+        </div>
+    <textarea id="editor" rows="20" cols="50" onChange={this.props.setInput}>{this.props.initValue}</textarea>
+    </div>)  : (<div></div>);
 }
 }
 
