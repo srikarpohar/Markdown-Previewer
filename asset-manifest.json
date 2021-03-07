@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/srikarpohar/Markdown-Previewer.git/static/css/main.056b3cd4.chunk.css",
+    "main.js": "/srikarpohar/Markdown-Previewer.git/static/js/main.3210c65c.chunk.js",
+    "main.js.map": "/srikarpohar/Markdown-Previewer.git/static/js/main.3210c65c.chunk.js.map",
+    "runtime-main.js": "/srikarpohar/Markdown-Previewer.git/static/js/runtime-main.f5e0ddee.js",
+    "runtime-main.js.map": "/srikarpohar/Markdown-Previewer.git/static/js/runtime-main.f5e0ddee.js.map",
+    "static/js/2.17f6842a.chunk.js": "/srikarpohar/Markdown-Previewer.git/static/js/2.17f6842a.chunk.js",
+    "static/js/2.17f6842a.chunk.js.map": "/srikarpohar/Markdown-Previewer.git/static/js/2.17f6842a.chunk.js.map",
+    "index.html": "/srikarpohar/Markdown-Previewer.git/index.html",
+    "precache-manifest.89ffb6f2f510731d234507f092e0a154.js": "/srikarpohar/Markdown-Previewer.git/precache-manifest.89ffb6f2f510731d234507f092e0a154.js",
+    "service-worker.js": "/srikarpohar/Markdown-Previewer.git/service-worker.js",
+    "static/css/main.056b3cd4.chunk.css.map": "/srikarpohar/Markdown-Previewer.git/static/css/main.056b3cd4.chunk.css.map",
+    "static/js/2.17f6842a.chunk.js.LICENSE.txt": "/srikarpohar/Markdown-Previewer.git/static/js/2.17f6842a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5e0ddee.js",
+    "static/js/2.17f6842a.chunk.js",
+    "static/css/main.056b3cd4.chunk.css",
+    "static/js/main.3210c65c.chunk.js"
+  ]
+}
